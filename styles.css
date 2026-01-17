@@ -1,1 +1,12 @@
-/*  your css code here. If applicable */
+.container {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 4px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(29, 29, 29);
+    transition: background-color 1s ease;
+}
